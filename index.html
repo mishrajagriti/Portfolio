@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Responsive Portfolio Website</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/custom.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+		<script src="js/typed.min.js"></script>
+</head>
+<body>
+		<header>
+			<nav>
+				<div class="logo">PORTFO<span>LIO</span></div>
+
+				<div class="menu">
+					<a href="#"> HOME</a>
+					<a href="#"> ABOUT</a>
+					<a href="#"> SKILLS</a>
+					<a href="#"> SERVICES</a>
+					<a href="#"> CONTACT</a>
+				</div>
+			</nav>
+				<div class="text">
+					<p>Hello, I am</p>
+					<h1>Jagriti Mishra</h1>
+					<p>And I Am A <span id="ani" style="color: #e74c3c;"></span></p>
+					<button class="c-btn">Hire me</button>
+				</div>
+
+		</header>
+
+
+			<section id="About">
+				<div class="section-info">
+					<h1>ABOUT</h1>
+					<p>Who I am?</p>
+				</div>
+
+				<div class="about-row">
+					<div class="about-left-col">
+						<img src="images.png/about.jpg">
+					</div>
+
+					<div class="about-right-col">
+						<p id="p-title">
+							Hello, I'm Jagriti & I'm a <span id="ani2" style="color: #e74c3c;
+							">  				</p>
+						<p>
+							You'll have a better chance of succeeding if you make a good/deep impression on your interviewer. Most of us aren't strangers to self-introductions because we meet new people on a regular basis and have to introduce ourselves. Self-introductions in interviews, on the other hand, are a little different from real life; you'll need to tweak them to your advantage. Make your self-introduction specific to the role of front-end developer and organization you're applying for! Your self-introduction changes as you get older and go through various stages of life.
+						</p>
+						<button class="c-btn">Download CV</button>
+					</div>
+					
+				</div>
+
+			</section>
+
+			<section id="skills">
+				<div class="section-info">
+					<h1 style="color: white;">SKILLS</h1>
+					<p>Who I am?</p>
+				</div>
+
+				<div class="skills-row">
+					<div class="skills-left-col">
+						<p>
+							You'll have a better chance of succeeding if you make a good/deep impression on your interviewer. Most of us aren't strangers to self-introductions because we meet new people on a regular basis and have to introduce ourselves. Self-introductions in interviews, on the other hand, are a little different from real life; you'll need to tweak them to your advantage. Make your self-introduction specific to the role of front-end developer and organization you're applying for! Your self-introduction changes as you get older and go through various stages of life.
+						</p>
+						<button class="c-btn">Read More</button>
+					</div>
+					<div class="skills-right-col">
+						<div class="progress-div">
+							<p>
+							<span>PYTHON PROGRAMMING</span><br>
+							<progress value="90" max="100"></progress>
+							<span>90%</span>
+						</p>
+						<p>
+							<span>HTML</span><br>
+							<progress value="80" max="100"></progress>
+							<span>80%</span>
+						</p>
+						<p>
+							<span>CSS</span><br>
+							<progress value="70" max="100"></progress>
+							<span>70%</span>
+						</p>
+						<p>
+							<span>JAVA SCRIPT</span><br>
+							<progress value="50" max="100"></progress>
+							<span>50%</span>
+						</p>
+						<p>
+							<span>CORE JAVA</span><br>
+							<progress value="40" max="100"></progress>
+							<span>40%</span>
+						</p>
+						<p>
+							<span>BOOTSTRAP</span><br>
+							<progress value="20" max="100"></progress>
+							<span>20%</span>
+						</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="services">
+				<div class="section-info">
+					<h1>SERVICES</h1>
+					<p>What We Provide</p>
+				</div>
+
+				<div class="services-row">
+					<div class="services-box" data-tilt>
+						<img src="images.png/b2.png">
+						<h2>WEB DESIGN</h2>
+						<p>
+							You'll have a better chance of succeeding if you make a good/deep impression on your interviewer. 
+						</p>
+					</div>
+					<div class="services-box" data-tilt>
+						<img src="images.png/b2.png">
+						<h2>WEB DEVELOPMENT</h2>
+						<p>
+							You'll have a better chance of succeeding if you make a good/deep impression on your interviewer. 
+						</p>
+					</div>
+					<div class="services-box" data-tilt>
+						<img src="images.png/b2.png">
+						<h2>APPS DEVELOPMENT</h2>
+						<p>
+							You'll have a better chance of succeeding if you make a good/deep impression on your interviewer. 
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact">
+				<div class="section-info" style="color: white;">
+					<h1>GET IN TOUCH</h1>
+					<p style="color:black;">We Are Available</p>
+				</div>
+				<div class="contact-row">
+					<div class="contact-left-col">
+						<img src="images.png/b3.png">
+					</div>
+					<div class="contact-right-col">
+						<form>
+							<h2>Connect With Us</h2>
+							<input type="text" name="" placeholder="Name">
+							<input type="email" name="" placeholder="E-Mail">
+							<br>
+							<textarea cols="40" rows="10" placeholder="Message"></textarea>
+							<br>
+							<button class="c-btn">Submit</button>
+						</form>
+					</div>
+				</div>
+
+			</section>
+			<section id="footer">
+				<h2>Developed By <br>Jagriti Mishra</h2>
+				<img src="images.png/icon.png" width="100">
+
+			</section>
+
+			
+<script src="js/jquery.ripples-min.js"></script>
+
+<script>
+	jQuery(document).ready(function(){
+		$('header').ripples({
+  dropRadius:20,
+  perturbance:0.03,
+
+});
+	});
+</script>				
+
+<script>
+	let animate= new Typed('#ani',{
+		strings:["Front End Developer","Web Designer","Back End Developer"],
+		typeSpeed:100,
+		backSpeed:100,
+		loop:true,
+	})
+</script>
+
+<script>
+	let animat= new Typed('#ani2',{
+		strings:["Blogger","Web Designer","Front End Developer"],
+		typeSpeed:100,
+		backSpeed:100,
+		loop:true,
+	})
+</script>
+
+<script src="js/tilt.jquery.min.js"></script>
+</body>
+</html>
